@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Busqueda"
+        app:showAsAction="ifRoom" >
+    <menu>
+        <item android:id="@+id/opMenu1_11"
+            android:title="Opción A.1"/>
+        <item android:id="@+id/opMenu1_22"
+            android:title="Opción A.2" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/opMenu1"
+        android:title="Opción Menu A">
+        <menu>
+            <item android:id="@+id/opMenu1_111"
+            android:title="Opción A.1"/>
+            <item android:id="@+id/opMenu1_222"
+            android:title="Opción A.2" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/opMenu2"
+        android:title="Opción Menu B" />
+    <item
+        android:id="@+id/opMenu3"
+        android:title="Opción Menu C" />
+</menu>
+
